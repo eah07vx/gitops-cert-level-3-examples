@@ -30,6 +30,7 @@ spec:
       destination:
         name: cluster-2
         namespace: '{{index .path.segments 2}}-{{index .path.segments 4}}'
+        
       # Sync policy
       syncPolicy:
         syncOptions:
